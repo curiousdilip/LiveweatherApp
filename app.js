@@ -1,5 +1,5 @@
-const searchForm = document.querySelector('.search-loaction');
-const cityValue = document.querySelector('.search-loaction input');
+const searchForm = document.querySelector('.search-location');
+const cityValue = document.querySelector('.search-location input');
 const cityName = document.querySelector('.city-name p');
 const cardBody = document.querySelector('.card-body');
 const timeImage = document.querySelector('.card-top img');
