@@ -16,7 +16,7 @@ const isDayTime = (icon) => {
 updateWeatherApp = (city) => {
     console.log(city);
     const imageName = city.weather[0].icon;
-    const iconSrc = `http://openweathermap.org/img/wn/${imageName}@2x.png`
+    const iconSrc = `https://openweathermap.org/img/wn/${imageName}@2x.png`
     cityName.textContent = city.name;
     cardBody.innerHTML = `
     <div class="card-mid row">
